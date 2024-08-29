@@ -39,6 +39,7 @@ const SignUp = () => {
             placeholder="Enter your name"
             onChange={handleInputChange}
             required
+            classname="text-black"
           />
           <InputField
             label="Email"
@@ -48,6 +49,7 @@ const SignUp = () => {
             placeholder="Enter your email"
             onChange={handleInputChange}
             required
+            classname="text-black"
           />
           <div className="relative">
             <InputField
@@ -58,6 +60,7 @@ const SignUp = () => {
               placeholder="Enter your password"
               onChange={handleInputChange}
               required
+              classname="text-black"
             />
             <div
               className="absolute inset-y-0 right-0 pr-4 top-8 flex items-center cursor-pointer"
@@ -66,7 +69,7 @@ const SignUp = () => {
               {showPassword ? <FaEyeSlash /> : <FaEye />}
             </div>
           </div>
-          <button type="submit" className="w-full bg-purple-700 text-white py-2 rounded mt-4">
+          <button type="submit" className="w-full bg-[#601363] text-white py-2 rounded mt-4">
             Sign Up
           </button>
         </form>
